@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>HTML放入JS的三种方式</title>
+
+</head>
+
+<body>
+
+  <h1>标题</h1>
+
+  <p>HTML放入JS的三种方式及实例</p>
+  <ol>
+  <li>行内</li>
+  <li>嵌入</li>
+  <li>引用</li>
+  </ol>
+  
+  <!-- 附加 -->
+  <a href="网址">更多信息</a> 
+   
+   <!--1. 行内 button 触控 js 命令-->
+  <button onclick="alert('弹出大傻逼')">点击我</button>
+ <!-- onclick_触控，alert_弹窗 -->
+ 
+ 
+  <!-- 2. 嵌入 刷新界面 弹窗提示 -->
+  <script>
+  var name ="小傻逼刷新";
+  alert(name);
+  </script>
+  
+  <!-- 3. 引用 在外部建立.js 文件，script 调用 -->
+  <script src="./1.js"></script>
+  </body >
+
+  </html>
